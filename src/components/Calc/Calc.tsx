@@ -8,7 +8,7 @@ const Calc = () => {
     const [result, setResult] = useState<string>('');
 
     const ops = ['/', '*', '+', '-', '.'];  
-    const updateCalc = value => {
+    const updateCalc = (value: string) => {
 
         if(
             ops.includes(value) && calc === '' ||

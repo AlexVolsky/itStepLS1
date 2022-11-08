@@ -9,6 +9,7 @@ const ReactCounter = () => {
     return (
        
         <div>
+          
             <h1 className='counter-header'>React Counter</h1>
             <h2 className='counter-value'>{count}</h2>
             <button className='counter-increment' onClick={() => setCount(count+1)}>+</button>
