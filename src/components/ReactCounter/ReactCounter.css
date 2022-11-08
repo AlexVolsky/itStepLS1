@@ -1,0 +1,24 @@
+.counter-header{
+    font-size: 2rem;
+    color: rgb(154, 250, 116);
+    margin: 15px 0;
+}
+
+.counter-increment, .counter-decrement, .counter-reset{
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 120px;
+    height: 50px;
+    margin: 0 15px;
+    font-size: 2rem;
+    color:aliceblue;
+    background-color: rgb(12, 83, 216);
+    border-radius: 15px;
+    border: none;
+    box-shadow: 5px 5px 5px 0px grey;
+}
+
+.counter-increment:active, .counter-decrement:active, .counter-reset:active{
+    transform: scale(1.2);
+    transition: 1ms;
+}
