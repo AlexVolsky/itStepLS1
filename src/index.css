@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.w-75{
+  margin: 30px auto;
+  box-shadow: 5px 5px 10px 5px gray;
+}
+
+.w-75 button{
+  margin: 0 20px;
+}
+
+button{max-height: 55px;}
